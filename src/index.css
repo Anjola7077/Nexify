@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header-section {
+  background: linear-gradient(to right, blue, skyblue);
+  min-height: 80vh;
+  color: white;
+  overflow: hidden;
+}
+
+.phone-img {
+  max-height: 600px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.phone-img:hover {
+  transform: scale(1.19);
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.slider-section {
+  background: gainsboro;
+}
+
+.slider-section .logo {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.95;
+  transition: transform 0.25s ease, opacity 0.25s;
+}
+
+.slider-section .logo:hover {
+  transform: translateY(-6px) scale(1.03);
+  opacity: 1;
+}
+
+.featured-img {
+  width: 100%;
+  height: 420px; 
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.about-feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(135deg,#eef2ff,#e6fffa);
+  color: #0f172a;
+  border-radius: 10px;
+  font-size: 18px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.06);
+}
+
+
