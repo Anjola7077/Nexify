@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Featured from "./components/Featured";
 import Footer from "./components/Footer";
 import Slider from "./components/slider";
-import About from "./components/About";
+
 
 function App() {
   return (
