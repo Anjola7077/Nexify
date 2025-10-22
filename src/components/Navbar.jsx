@@ -11,9 +11,9 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className="justify-content-end">
           <Nav className="align-items-center">
-            <Nav.Link href="#home" className="mx-2">Home</Nav.Link>
+            <Nav.Link href="#header" className="mx-2">Home</Nav.Link>
             <Nav.Link href="#featured" className="mx-2">Featured</Nav.Link>
-            <Nav.Link href="#contact" className="mx-2">About</Nav.Link>
+            <Nav.Link href="#about" className="mx-2">About</Nav.Link>
             <Button variant="outline-light" className="ms-2 px-4">Shop Now</Button>
           <Button variant="outline-info" className="ms-2 px-4">Login</Button>
             <Button variant="primary" className="ms-2 px-4">Sign up</Button>
