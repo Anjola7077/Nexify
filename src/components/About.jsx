@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { FaShippingFast, FaShieldAlt, FaCreditCard } from "react-icons/fa";
-import aboutImg from "../assets/aboutImg.png";
 
 const About = () => {
   return (
@@ -31,11 +30,14 @@ const About = () => {
               </li>
             </ul>
 
-        
+            <div>
+              <Button variant="primary" className="me-2">Shop Phones</Button>
+              <Button variant="outline-secondary">Learn More</Button>
+            </div>
           </Col>
 
           <Col md={6} className="text-center">
-            <img src={aboutImg} alt="About Nexify" className="about-img img-fluid" />
+            <img src="/aboutimg.png" alt="About Nexify" className="about-img img-fluid" />
           </Col>
         </Row>
       </Container>
