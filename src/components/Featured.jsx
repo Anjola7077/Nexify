@@ -38,7 +38,7 @@ const Featured = () => {
                 <Card.Body className="text-center">
                   <Card.Title className="fw-semibold">{product.name}</Card.Title>
                   <Card.Text className="text-muted mb-3">{product.price}</Card.Text>
-                  <Button variant="dark" className="rounded-pill px-4">Buy Now</Button>
+          
                 </Card.Body>
               </Card>
             </Col>
